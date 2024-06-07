@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                build 'simple-java-maven-app'
+                build 'SWengine-Jenkinfile'
             }
         }
         stage('Test') {
