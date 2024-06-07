@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                build 'PipeLineJob2'
+                build 'PipeLineJob1'
             }
         }
         stage('Test') {
